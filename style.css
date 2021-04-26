@@ -1,0 +1,64 @@
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.DivToScroll{   
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 10px 7px 5px;
+}
+
+.DivWithScroll{
+    height:120px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+.message {
+  border: 1px solid rgb(192, 63, 63);
+  padding: 7px;
+  margin: 5px;
+}
+
+.output-empty {
+  padding: 7px;
+  margin: 5px;
+  color: rgb(70, 28, 9);
+}
+
+.output {
+  padding: 7px;
+  margin: 5px;
+  color: rgb(27, 78, 189);
+}
+
+.input {
+  padding: 7px;
+  margin: 5px;
+  color: rgb(27, 78, 189);
+}
+
+.process-button {
+  border: 1px solid rgb(92, 30, 30);
+  background-color: rgb(141, 93, 93);
+  color: rgb(245, 233, 233);
+  padding:15px;
+}
+
